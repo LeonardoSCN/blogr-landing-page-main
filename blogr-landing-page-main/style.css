@@ -1,0 +1,499 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.navegacao  {
+  background-color: hsl(355, 100%, 74%);
+  height: 530px;
+  border-radius: 0px 0px 0px 80px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 60px;
+ 
+}
+
+.menu ul {
+  display: flex;
+  gap: 60px;
+
+}
+
+.menu ul li {
+  font-family: Overpass;
+  color: #fff;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.botoes {
+  margin-left: 400px;
+}
+
+.login {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+  font-family: Overpass;
+  color: #fff;
+}
+
+.sign {
+  padding: 10px 30px;
+  border-radius: 40px;
+  color: hsl(356, 100%, 66%);
+  background-color: #fff;
+  border: 1px solid #fff;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.moderno {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.moderno h1 {
+  font-family: Overpass;
+  font-weight: 700;
+  font-size: 54px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+
+.moderno p {
+  text-align: center;
+  font-family: Overpass;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+.botoes-dois {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.start {
+  padding: 7px 10px;
+  border-radius: 40px;
+  color: hsl(356, 100%, 66%);
+  background-color: #fff;
+  border: 1px solid #fff;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.learn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 7px 22px;
+  border-radius: 40px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: Overpass;
+  color: #fff;
+  
+}
+
+.principal {
+  font-family: Overpass;
+  color: hsl(240, 10%, 16%);
+  text-align: center;
+  margin-top: 120px;
+}
+
+.principal h2 {
+  font-size: 38px;
+  color: hsl(208, 49%, 24%)
+}
+
+.container {
+  display: flex;
+}
+
+.designed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.introducao h3 {
+  color: hsl(208, 49%, 24%);
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: start;
+  font-family: Overpass;
+  font-weight: 600;
+}
+
+.introducao p {
+  color: hsl(207, 13%, 34%);
+  max-width: 56ch;
+  font-family: Overpass;
+  text-align: left;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+
+.management h3{
+  color: hsl(208, 49%, 24%);
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: start;
+  font-family: Overpass;
+  font-weight: 600;
+}
+
+.management p {
+  color: hsl(207, 13%, 34%);
+  max-width: 56ch;
+  font-family: Overpass;
+  text-align: left;
+  font-weight: 300;
+}
+
+
+.telefone {
+  background-color: hsl(237, 23%, 32%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 80px 0px 80px;
+  margin-bottom: 80px;
+}
+
+.telefone h2 {
+  color:  #fff;
+  font-size: 38px;
+  font-family: Overpass;
+  margin-bottom: 20px;
+}
+
+.telefone p {
+  max-width: 50ch;
+  color: #fff;
+  line-height: 1.5;
+  font-family: Overpass;
+}
+
+.laptop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.laptop h3 {
+  color: hsl(208, 49%, 24%);
+  font-size: 26px;
+  font-family: Overpass;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.laptop p {
+  font-family: overpass;
+  color: hsl(207, 13%, 34%);
+  line-height: 1.5;
+  max-width: 50ch;
+  margin-bottom: 60px;
+}
+
+.laptop-img {
+  margin-left: -280px;
+}
+
+.footer {
+  background-color:  hsl(237, 17%, 21%);
+  border-radius: 0px 80px 0px 0px;
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 380px;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.product-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: Overpass;
+}
+
+.product-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.company-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: Overpass;
+}
+
+.company-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.connect-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: Overpass;
+}
+
+.connect-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Media Query */
+
+@media(max-width: 1500px) {
+  .desktop-img img {
+   max-width: 743px;
+   max-height: 700px;
+  }
+}
+
+@media(max-width: 1300px) {
+  .desktop-img img {
+    max-width: 643px;
+    max-height: 600px;
+   }
+}
+
+@media(max-width: 1210px) {
+  .botoes {
+    margin-left: 60px;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .introducao  h3 {
+    text-align: center;
+  }
+  .management h3 {
+    text-align: center;
+  }
+  .principal h2 {
+    margin-bottom: 40px;
+  }
+
+  .laptop img {
+      max-width: 600px;
+      max-height: 612px;
+      margin-left: 0px
+  }
+  .telefone p {
+    margin-bottom: 40px;
+  }
+}
+
+
+@media(max-width: 990px) {
+  .laptop {
+    flex-direction: column;
+  }
+ .laptop img {
+   display: none;
+ }
+ .laptop h3 {
+   text-align: center;
+ }
+ .laptop p {
+   text-align: center;
+ }
+}
+
+@media(max-width: 860px) {
+  .moderno h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+  .moderno {
+    gap: 30px;
+  }
+  .telefone p {
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: 28ch;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .telefone h2 {
+    max-width: 20ch;
+    text-align: center;
+  }
+  .desktop-img {
+    margin-bottom: 40px;
+  }
+  .laptop p {
+    max-width: 38ch;
+  }
+}
+
+@media(max-width: 650px) {
+  .desktop-img img {
+    max-width: 443px;
+    max-height: 400px;
+  }
+  .introducao h3 {
+    margin: 0 auto;
+    font-size: 28px;
+    max-width: 15ch;
+    margin-bottom: 20px;
+  }
+  .management h3 {
+    margin: 0 auto;
+    font-size: 28px;
+    max-width: 15ch;
+    margin-bottom: 20px;
+  }
+
+  .introducao p {
+    max-width: 30ch;
+    font-size: 18px;
+    text-align: center;
+  }
+  .management p {
+    max-width: 30ch;
+    font-size: 18px;
+    text-align: center;
+  }
+  .telefone img {
+    max-width: 473px;
+    max-height: 500px;
+  }
+ 
+}
+
+@media(max-width: 560px) {
+  .desktop-img img {
+    display: none;
+  }
+  .laptop img {
+    display: none;
+  }
+  .principal h2 {
+    font-size: 28px;
+  }
+  .moderno h1 {
+    font-size: 32px;
+  }
+}
+
+
+@media(max-width: 540px) {
+  .menu {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .navegacao {
+    height: 650px;
+  } 
+  .moderno p {
+    max-width: 30ch;
+  }
+  .telefone h2 {
+    text-align: center;
+  }
+  .telefone p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 35ch;
+    margin-bottom: 60px;
+  }
+  .footer {
+  flex-direction: column;
+  height: 760px;
+  text-align: center;
+  }
+  .product-footer {
+    margin-bottom: 20px;
+  }
+  .company-footer {
+    margin-bottom: 20px
+  }
+  .telefone img {
+    max-width: 373px;   
+    max-height: 500px;
+  } 
+}
+
+@media(max-width: 400px) {
+  .moderno {
+    margin-top: 20px;
+    gap: 15px;
+  }
+  .telefone img {
+    max-width: 400px;
+    max-height: 427px;
+  }
+  .telefone img {
+    max-width: 273px;
+    max-height: 300px;
+  }
+}
